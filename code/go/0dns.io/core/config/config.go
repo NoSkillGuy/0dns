@@ -15,12 +15,12 @@ func SetupDefaultConfig() {
 }
 
 /*SetupConfig - setup the configuration system */
-func SetupConfig() {
+func SetupConfig(configFile string) {
 	replacer := strings.NewReplacer(".", "_")
 	viper.SetEnvKeyReplacer(replacer)
 	viper.AutomaticEnv()
 	viper.SetConfigName("0dns")
-	viper.AddConfigPath("./config")
+	viper.AddConfigPath(configFile)
 	err := viper.ReadInConfig() // Find and read the config file
 	if err != nil {             // Handle errors reading the config file
 		panic(fmt.Errorf("fatal error config file: %s", err))
@@ -109,15 +109,21 @@ func (c *Config) SetMinerSharderNodes() {
 	for _, sharder := range c.CurrentMagicBlock.Sharders.Nodes {
 		host := sharder.Host
 		if strings.Contains(host, "localhost") {
+			fmt.Println("debugging sharder url ............... 0")
 			host = sharder.N2NHost
+			host = host +
+				":" +
+				strconv.Itoa(sharder.Port)
 		}
 		if c.UsePath {
+			fmt.Println("debugging sharder url ............... 1")
 			sharders = append(sharders,
 				networkProtocol+
 					host+
 					"/"+
 					sharder.Path)
 		} else {
+			fmt.Println("debugging sharder url ............... 2")
 			sharders = append(sharders,
 				networkProtocol+
 					host+

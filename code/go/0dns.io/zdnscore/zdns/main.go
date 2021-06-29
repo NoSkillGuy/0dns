@@ -90,17 +90,19 @@ var startTime time.Time
 func main() {
 	deploymentMode := flag.Int("deployment_mode", 2, "deployment_mode")
 	magicBlockFile := flag.String("magic_block", "", "magic_block")
+	configFile := flag.String("config", "./config",  "config")
+	logFile := flag.String("log", "log/0dns.log", "log")
 
 	flag.Parse()
 
 	config.Configuration.DeploymentMode = byte(*deploymentMode)
 	config.SetupDefaultConfig()
-	config.SetupConfig()
+	config.SetupConfig(*configFile)
 
 	if config.Development() {
-		logging.InitLogging("development")
+		logging.InitLogging("development", *logFile)
 	} else {
-		logging.InitLogging("production")
+		logging.InitLogging("production", *logFile)
 	}
 	initializeConfig()
 

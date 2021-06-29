@@ -145,6 +145,7 @@ func queryMagicBlockFromSharders(ctx context.Context, query string, result chan 
 	for _, sharder := range util.Shuffle(config.Configuration.Sharders) {
 		go func(sharderurl string) {
 			url := fmt.Sprintf("%v%v", sharderurl, query)
+			fmt.Println(url)
 			req, err := util.NewHTTPGetRequestContext(ctx, url)
 			if err != nil {
 				Logger.Error("failed to create new req", zap.Error(err))

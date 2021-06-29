@@ -1,0 +1,1387 @@
+2021-06-27T19:34:33.044+0530	INFO	zdns/main.go:181	Trying to connect to mongoDB ...
+2021-06-27T19:34:33.069+0530	INFO	zdns/main.go:188	DB Connection done.
+2021-06-27T19:34:33.072+0530	INFO	zdns/main.go:146	Ready to listen to the requests on 	{"port": 9091}
+2021-06-27T19:34:38.092+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:34:43.087+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:34:48.090+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:34:53.079+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:34:58.084+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:35:03.084+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:35:08.081+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:35:13.085+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:35:18.085+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:35:23.088+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:35:28.083+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:35:33.090+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:35:38.202+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:35:43.097+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:35:48.086+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:35:53.085+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:35:58.080+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:35:58.081+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:35:58.081+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:36:03.080+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:36:03.080+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:36:03.080+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:36:08.077+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:36:08.078+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:36:08.078+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:36:13.077+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:36:13.077+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:36:13.077+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:36:18.081+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:36:18.081+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:36:18.081+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:36:23.080+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:36:23.080+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:36:23.080+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:36:28.077+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:36:28.077+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:36:28.077+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:36:33.079+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:36:33.079+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:36:33.079+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:36:38.079+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:36:38.080+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:36:38.080+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:36:43.079+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:36:43.079+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:36:43.079+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:36:48.088+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": EOF"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:36:48.088+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:36:48.089+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:36:53.084+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": EOF"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:36:53.084+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:36:53.084+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:36:58.086+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:37:03.083+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:37:08.082+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:37:13.085+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:37:18.086+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:37:23.083+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:37:28.083+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:37:33.093+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:37:38.084+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:37:43.097+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:37:48.091+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:37:53.092+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:37:58.104+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:38:03.091+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:38:08.087+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:38:13.086+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:38:18.096+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:38:23.086+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:38:28.092+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:38:33.085+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:38:38.083+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:38:43.082+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:38:48.086+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:38:53.085+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:38:58.083+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:39:03.083+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:39:08.082+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:39:13.096+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:39:18.087+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:39:23.085+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:39:28.085+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:39:33.080+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:39:38.086+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:39:43.086+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:39:48.088+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:39:53.093+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:39:58.107+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:40:03.095+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:40:08.106+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:40:13.094+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:40:18.098+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:40:23.123+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:40:28.097+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:40:33.088+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:40:38.087+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:40:43.085+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:40:48.094+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:40:53.089+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:40:58.084+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:41:03.101+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:41:08.083+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:41:13.088+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:41:18.091+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:41:23.085+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:41:28.087+0530	INFO	worker/worker.go:45	Magic block already present in the DB 	{"magic_block_number": 1}
+2021-06-27T19:41:33.081+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:41:33.081+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:41:33.081+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:41:38.081+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:41:38.082+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:41:38.082+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:41:43.077+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:41:43.077+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:41:43.077+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:41:48.079+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:41:48.079+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:41:48.079+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:41:53.079+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:41:53.082+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:41:53.082+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:41:58.080+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:41:58.080+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:41:58.080+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:42:03.076+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:42:03.077+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:42:03.077+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:42:08.079+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:42:08.079+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:42:08.079+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:42:13.079+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:42:13.079+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:42:13.079+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:42:18.077+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:42:18.077+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:42:18.077+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:42:23.079+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:42:23.080+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:42:23.080+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:42:28.076+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:42:28.076+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:42:28.076+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:42:33.076+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:42:33.076+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:42:33.076+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:42:38.077+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:42:38.077+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:42:38.077+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:42:43.076+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:42:43.076+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:42:43.076+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:42:48.079+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:42:48.079+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:42:48.079+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:42:53.076+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:42:53.076+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:42:53.076+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:42:58.079+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:42:58.080+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:42:58.080+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:43:03.080+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:43:03.080+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:43:03.080+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:43:08.076+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:43:08.076+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:43:08.076+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:43:13.076+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:43:13.076+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:43:13.076+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:43:18.078+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:43:18.079+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:43:18.079+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:43:23.075+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:43:23.076+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:43:23.076+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:43:28.079+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:43:28.079+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:43:28.079+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:43:33.077+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:43:33.077+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:43:33.077+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:43:38.078+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:43:38.079+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:43:38.079+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:43:43.079+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:43:43.079+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:43:43.079+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:43:48.082+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:43:48.082+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:43:48.082+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:43:53.079+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:43:53.079+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:43:53.079+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:43:58.080+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:43:58.080+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:43:58.080+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:44:03.079+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:44:03.079+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:44:03.079+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:44:08.076+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:44:08.076+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:44:08.076+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:44:13.079+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:44:13.079+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:44:13.079+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:44:18.075+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:44:18.075+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:44:18.075+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:44:23.079+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:44:23.079+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:44:23.079+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:44:28.072+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:44:28.072+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:44:28.073+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:44:33.068+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:44:33.068+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:44:33.068+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:44:38.066+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:44:38.067+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:44:38.067+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:44:43.064+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:44:43.064+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:44:43.064+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:44:48.060+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:44:48.060+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:44:48.060+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:44:53.059+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:44:53.059+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:44:53.059+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:44:58.057+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:44:58.057+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:44:58.057+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:45:03.057+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:45:03.057+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:45:03.057+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:45:08.056+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:45:08.056+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:45:08.056+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:45:13.056+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:45:13.056+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:45:13.056+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:45:18.058+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:45:18.058+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:45:18.058+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:45:23.054+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:45:23.054+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:45:23.054+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:45:28.055+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:45:28.056+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:45:28.056+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:45:33.056+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:45:33.056+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:45:33.056+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:45:38.053+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:45:38.054+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:45:38.054+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:45:43.053+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:45:43.053+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:45:43.053+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:45:48.055+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:45:48.056+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:45:48.056+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:45:53.056+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:45:53.057+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:45:53.057+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:45:58.058+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:45:58.058+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:45:58.058+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:46:03.054+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:46:03.054+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:46:03.054+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:46:08.054+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:46:08.054+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:46:08.055+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:46:13.059+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:46:13.060+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:46:13.060+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:46:18.058+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:46:18.058+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:46:18.058+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:46:23.054+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:46:23.054+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:46:23.054+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:46:28.054+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:46:28.054+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:46:28.054+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:46:33.053+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:46:33.053+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:46:33.053+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:46:38.053+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:46:38.053+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:46:38.053+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:46:43.054+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:46:43.054+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:46:43.054+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:46:48.055+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:46:48.055+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:46:48.055+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:46:53.052+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:46:53.053+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:46:53.053+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:46:58.058+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:46:58.059+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:46:58.059+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:47:03.053+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:47:03.054+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:47:03.054+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:47:08.057+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:47:08.057+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:47:08.057+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:47:13.054+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:47:13.054+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:47:13.055+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:47:18.058+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:47:18.058+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:47:18.058+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:47:23.052+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:47:23.053+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:47:23.053+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:47:28.056+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:47:28.056+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:47:28.056+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:47:33.057+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:47:33.057+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:47:33.057+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:47:38.054+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:47:38.054+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:47:38.054+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:47:43.055+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:47:43.055+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:47:43.055+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:47:48.055+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:47:48.055+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:47:48.055+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:47:53.059+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:47:53.061+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:47:53.061+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:47:58.053+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:47:58.054+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:47:58.054+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:48:03.056+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:48:03.056+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:48:03.056+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:48:08.056+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:48:08.056+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:48:08.056+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:48:13.053+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:48:13.053+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:48:13.053+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:48:18.053+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:48:18.053+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:48:18.053+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:48:23.056+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:48:23.056+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:48:23.056+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:48:28.054+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:48:28.055+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:48:28.055+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:48:33.052+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:48:33.053+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:48:33.053+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:48:38.054+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:48:38.055+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:48:38.055+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:48:43.057+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:48:43.057+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:48:43.057+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:48:48.058+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:48:48.058+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:48:48.059+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40
+2021-06-27T19:48:53.055+0530	ERROR	worker/worker.go:156	error from sharder request	{"error": "Get \"http://localhost:7171//v1/block/get/latest_finalized_magic_block\": dial tcp [::1]:7171: connect: connection refused"}
+0dns.io/zdnscore/worker.queryMagicBlockFromSharders.func1
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:156
+2021-06-27T19:48:53.055+0530	ERROR	worker/worker.go:119	status not ok	{"body": ""}
+0dns.io/zdnscore/worker.fetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:119
+0dns.io/zdnscore/worker.GetLatestFinalizedMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:93
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:38
+2021-06-27T19:48:53.055+0530	ERROR	worker/worker.go:40	Failed to get latest finalized magic block from blockchain	{"error": "magic block info not found"}
+0dns.io/zdnscore/worker.FetchMagicBlock
+	/Users/personal/workspace/0chain/0dns/code/go/0dns.io/zdnscore/worker/worker.go:40

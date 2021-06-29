@@ -13,8 +13,9 @@ var (
 	Logger *zap.Logger
 )
 
-func InitLogging(mode string) {
-	var logName = "log/0dns.log"
+func InitLogging(mode string, logFile string) {
+	//var logName = "log/0dns.log"
+	var logName = logFile
 
 	var logWriter = getWriteSyncer(logName)
 
